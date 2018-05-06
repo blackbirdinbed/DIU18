@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <title>Confirmación</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+  <script src="js/bootstrap-datetimepicker.min.js"></script>
+</head>
+
+<body class="text-light">
+  <div class="bg-primary bg-gradient py-2" id="Header">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2 col-4" id="Logo">
+          <a href="index.html">
+            <img class="img-fluid d-block m-0 p-0" src="imagenes/logo.png" width="100%" height="100%"> </a>
+        </div>
+        <div class="col-md-8 col-8">
+          <h1 class="display-4">
+            <br> </h1>
+        </div>
+        <div class="col-md-2">
+          <div class="row">
+            <div class="col-md-12">
+              <a class="btn m-1 w-100 btn-info disabled" id="Login" href="login.html">
+                <i class="fa fa-user fa-fw"></i>Login</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <a class="btn m-1 w-100 btn-info disabled" id="Register" href="registro.html">Registrarse</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8 col-12">
+          <div class="btn-group">
+            <a class="btn btn-primary btn-lg" href="index.html">
+              <i class="fa fa-fw fa-home"></i>Home</a>
+            <a class="btn btn-primary btn-lg" href="actividades.html">Actividades</a>
+            <a href="miseventos.html" class="btn btn-primary btn-lg active">Mis eventos</a>
+            <a class="btn btn-primary btn-lg" href="centros_colaboradores.html">Centros colaboradores</a>
+          </div>
+        </div>
+        <div class="col-md-4 col-12">
+          <form class="form-inline mx-auto px-0 w-100" id="Buscador" action="">
+            <input class="form-control mr-2" type="text" placeholder="Search">
+            <button class="btn btn-primary btn-sm" type="submit" data-target="busqueda.html">
+              <i class="fa fa-fw fa-search"></i>Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5" id="Main">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <ul class="breadcrumb" style="margin-bottom:0px;margin-top:0px">
+            <li class="breadcrumb-item">
+              <a href="#">Mis eventos</a>
+            </li>
+            <li class="breadcrumb-item">
+              <a href="nuevo_evento_1.html">Publicar
+                <br> </a>
+            </li>
+            <li class="breadcrumb-item">
+              <a href="nuevo_evento_2.html">Dirección y fecha
+                <br> </a>
+            </li>
+            <li class="breadcrumb-item">
+              <a href="#">Confirmar
+                <br> </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="text-primary">Confirmar evento</h1>
+          <div class="row m-3"></div>
+          <div class="row">
+            <div class="col-md-6">
+              <h1 class="text-primary">Conferencia sobre educación</h1>
+              <div class="row">
+                <div class="col-md-12">
+                  <p class="lead text-primary">09/05/2018</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <p class="text-primary">Conferencia impartida por Rosa Cobo Bedia, profesora titular de Sociología del Género en la Universidad de La Coruña y directora del Centro de Estudios de Género y Feministas de la misma universidad. Entrada libre hasta completar aforo.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <img class="img-fluid d-block mx-auto" src="imagenes/conf.jpeg" width="500"> </div>
+          </div>
+          <div class="row m-3"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <img class="d-block img-fluid mx-auto" src="https://maps.googleapis.com/maps/api/staticmap?key=AIzaSyDW8nO9JhT_pEjebobq9pgUF2cEp0EUb1I&amp;markers=New+York+City&amp;center=New+York+City&amp;zoom=12&amp;size=640x480&amp;sensor=false"> </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="btn-group">
+            <a href="nuevo_evento_2.html" class="btn btn-primary mx-3 w-100 px-3">ATRAS</a>
+            <a href="index.html" class="btn btn-primary px-3">PUBLICAR
+              <br> </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6"></div>
+        <div class="col-md-6"></div>
+      </div>
+    </div>
+  </div>
+  <div class="text-white bg-primary h-100" id="Footer">
+    <div class="container">
+      <div class="row">
+        <div class="p-5 col-md-6 h-75 col-6">
+          <a href="index.html">
+            <img class="img-fluid d-block" src="imagenes/logo.png" width="50%" height="50%"> </a>
+          <h3 class="mb-4">Agenda UGR</h3>
+          <ul class="list-unstyled">
+            <a class="text-white" href="aviso_legal.html">Aviso Legal</a>
+            <br>
+            <a class="text-white" href="quienes_somos.html">Quiénes somos</a>
+            <br>
+            <a class="text-white" href="contacto.html">Contacto</a>
+            <br>
+            <a class="text-white" href="faq.html">FAQ</a>
+          </ul>
+        </div>
+        <div class="p-5 col-md-6 h-75 col-6">
+          <h3>Newsletter</h3>
+          <form class="my-4">
+            <fieldset class="form-group">
+              <label for="exampleInputEmail1">Suscribete a nuestro newsletter</label>
+              <input type="email" class="form-control" placeholder="Enter email"> </fieldset>
+            <button type="submit" class="btn btn-outline-light" data-target="newsletter.html">Submit</button>
+          </form>
+          <h3 class="mt-5">Social</h3>
+          <div class="row">
+            <div class="my-2 d-flex align-self-start align-items-start col-md-2 col-6 col-sm-6">
+              <a href="https://www.facebook.com" target="_blank" class="justify-content-center align-self-center align-items-center">
+                <i class="fa fa-facebook d-inline fa-lg mr-3 text-white"></i>
+              </a>
+            </div>
+            <div class="align-self-center my-2 col-md-3 col-6 col-sm-6">
+              <a href="https://twitter.com" target="_blank">
+                <i class="fa fa-twitter d-inline mx-3 fa-lg text-white"></i>
+              </a>
+            </div>
+            <div class="align-self-center my-2 col-md-3 col-6 col-sm-6">
+              <a href="https://www.instagram.com" target="_blank">
+                <i class="fa fa-instagram d-inline mx-3 fa-lg text-white"></i>
+              </a>
+            </div>
+            <div class="align-self-center my-2 col-md-3 col-6 col-sm-6">
+              <a href="https://plus.google.com" target="_blank">
+                <i class="fa fa-google-plus-official d-inline mx-3 fa-lg text-white"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row my-3">
+        <div class="col-md-12 mt-3 col-12">
+          <p class="text-center">© Copyright 2017 Pingendo - All rights reserved. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <pingendo onclick="window.open('https://pingendo.com/', '_blank')" style="cursor:pointer;position: fixed;bottom: 10px;right:10px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:250px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white">Made with Pingendo Free&nbsp;&nbsp;
+    <img src="https://pingendo.com/site-assets/Pingendo_logo_big.png" class="d-block" alt="Pingendo logo" height="16">
+  </pingendo>
+</body>
+
+</html>
