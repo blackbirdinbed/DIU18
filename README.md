@@ -1,3 +1,6 @@
+
+El enlace para acceder a la página es https://blackbirdinbed.github.io/DIU18
+
 # DIU18
 Prácticas Diseño Interfaces de Usuario 2017-18 (Agenda cultural)
 
